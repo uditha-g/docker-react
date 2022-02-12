@@ -9,6 +9,6 @@ test('renders learn react link', () => {
 
 test('renders learn react ud link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react ud/i);
+  const linkElement = screen.getByText(/learn react ud/i, undefined);
   expect(linkElement).toBe(undefined)
 });
