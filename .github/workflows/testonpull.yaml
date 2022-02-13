@@ -1,7 +1,6 @@
 name: Test Frontend2
 on:
   pull_request:
-    types: [opened, edited]
     branches:
       - master
 
